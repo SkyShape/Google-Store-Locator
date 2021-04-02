@@ -1,0 +1,422 @@
+[{
+        "recommendation": {
+            "isUsual": false
+        },
+        "storeNumber": "53087-281857",
+        "id": "1018766",
+        "name": "Hauptmarkt 1",
+        "phoneNumber": null,
+        "coordinates": {
+            "latitude": 49.453093,
+            "longitude": 11.07663
+        },
+        "regulations": [],
+        "address": {
+            "streetAddressLine1": "Hauptmarkt 1",
+            "streetAddressLine2": null,
+            "streetAddressLine3": null,
+            "city": "Nuernberg",
+            "countrySubdivisionCode": "BY",
+            "countryCode": "DE",
+            "postalCode": "90403"
+        },
+        "timeZoneInfo": {
+            "currentTimeOffset": 60,
+            "windowsTimeZoneId": "W. Europe Standard Time",
+            "olsonTimeZoneId": "GMT+02:00 Europe/Berlin"
+        },
+        "brandName": "Starbucks",
+        "ownershipTypeCode": "LS",
+        "curbside": {
+            "state": "notSupported"
+        },
+        "open": false,
+        "openStatusText": "Closed",
+        "warnings": ["Store closed"],
+        "addressLines": ["Hauptmarkt 1", "Nuernberg, BY 90403"],
+        "mop": {
+            "ready": false,
+            "wait": null
+        },
+        "schedule": [{
+            "dayName": "Today",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tomorrow",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Monday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tuesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Wednesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Thursday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Friday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }],
+        "features": [{
+            "code": "WF",
+            "name": "Wireless Hotspot"
+        }, {
+            "code": "CD",
+            "name": "Mobile Payment"
+        }, {
+            "code": "DR",
+            "name": "Redeem Rewards"
+        }],
+        "slug": "hauptmarkt-1-hauptmarkt-1-nuernberg-by-90403-de"
+    }, {
+        "recommendation": {
+            "isUsual": false
+        },
+        "storeNumber": "53088-282062",
+        "id": "1018767",
+        "name": "Karolinenstrasse 12",
+        "phoneNumber": null,
+        "coordinates": {
+            "latitude": 49.451036,
+            "longitude": 11.076623
+        },
+        "regulations": [],
+        "address": {
+            "streetAddressLine1": "Karolinenstrasse 12",
+            "streetAddressLine2": null,
+            "streetAddressLine3": null,
+            "city": "Nuernberg",
+            "countrySubdivisionCode": "BY",
+            "countryCode": "DE",
+            "postalCode": "90402"
+        },
+        "timeZoneInfo": {
+            "currentTimeOffset": 60,
+            "windowsTimeZoneId": "W. Europe Standard Time",
+            "olsonTimeZoneId": "GMT+02:00 Europe/Berlin"
+        },
+        "brandName": "Starbucks",
+        "ownershipTypeCode": "LS",
+        "curbside": {
+            "state": "notSupported"
+        },
+        "open": false,
+        "openStatusText": "Closed",
+        "warnings": ["Store closed"],
+        "addressLines": ["Karolinenstrasse 12", "Nuernberg, BY 90402"],
+        "mop": {
+            "ready": false,
+            "wait": null
+        },
+        "schedule": [{
+            "dayName": "Today",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tomorrow",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Monday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tuesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Wednesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Thursday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Friday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }],
+        "features": [],
+        "slug": "karolinenstrasse-12-karolinenstrasse-12-nuernberg-by-90402-de"
+    }, {
+        "recommendation": {
+            "isUsual": false
+        },
+        "storeNumber": "53089-281916",
+        "id": "1018768",
+        "name": "Breite Gasse 41",
+        "phoneNumber": null,
+        "coordinates": {
+            "latitude": 49.449925,
+            "longitude": 11.075374
+        },
+        "regulations": [],
+        "address": {
+            "streetAddressLine1": "Breite Gasse  41",
+            "streetAddressLine2": null,
+            "streetAddressLine3": null,
+            "city": "Nuernberg",
+            "countrySubdivisionCode": "BY",
+            "countryCode": "DE",
+            "postalCode": "90402"
+        },
+        "timeZoneInfo": {
+            "currentTimeOffset": 60,
+            "windowsTimeZoneId": "W. Europe Standard Time",
+            "olsonTimeZoneId": "GMT+02:00 Europe/Berlin"
+        },
+        "brandName": "Starbucks",
+        "ownershipTypeCode": "LS",
+        "curbside": {
+            "state": "notSupported"
+        },
+        "open": false,
+        "openStatusText": "Closed",
+        "warnings": ["Store closed"],
+        "addressLines": ["Breite Gasse  41", "Nuernberg, BY 90402"],
+        "mop": {
+            "ready": false,
+            "wait": null
+        },
+        "schedule": [{
+            "dayName": "Today",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tomorrow",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Monday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tuesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Wednesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Thursday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Friday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }],
+        "features": [{
+            "code": "WF",
+            "name": "Wireless Hotspot"
+        }, {
+            "code": "CD",
+            "name": "Mobile Payment"
+        }, {
+            "code": "DR",
+            "name": "Redeem Rewards"
+        }],
+        "slug": "breite-gasse-41-breite-gasse-41-nuernberg-by-90402-de"
+    }, {
+        "recommendation": {
+            "isUsual": false
+        },
+        "storeNumber": "53086-282050",
+        "id": "1018765",
+        "name": "Hefnersplatz 10",
+        "phoneNumber": null,
+        "coordinates": {
+            "latitude": 49.451045,
+            "longitude": 11.072719
+        },
+        "regulations": [],
+        "address": {
+            "streetAddressLine1": "Hefnersplatz 10",
+            "streetAddressLine2": null,
+            "streetAddressLine3": null,
+            "city": "Nuernberg",
+            "countrySubdivisionCode": "BY",
+            "countryCode": "DE",
+            "postalCode": "90402"
+        },
+        "timeZoneInfo": {
+            "currentTimeOffset": 60,
+            "windowsTimeZoneId": "W. Europe Standard Time",
+            "olsonTimeZoneId": "GMT+02:00 Europe/Berlin"
+        },
+        "brandName": "Starbucks",
+        "ownershipTypeCode": "LS",
+        "curbside": {
+            "state": "notSupported"
+        },
+        "open": false,
+        "openStatusText": "Closed",
+        "warnings": ["Store closed"],
+        "addressLines": ["Hefnersplatz 10", "Nuernberg, BY 90402"],
+        "mop": {
+            "ready": false,
+            "wait": null
+        },
+        "schedule": [{
+            "dayName": "Today",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tomorrow",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Monday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tuesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Wednesday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Thursday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Friday",
+            "hours": "9:45 AM to 6:00 PM",
+            "open": true,
+            "holiday": ""
+        }],
+        "features": [{
+            "code": "WF",
+            "name": "Wireless Hotspot"
+        }, {
+            "code": "CD",
+            "name": "Mobile Payment"
+        }, {
+            "code": "DR",
+            "name": "Redeem Rewards"
+        }],
+        "slug": "hefnersplatz-10-hefnersplatz-10-nuernberg-by-90402-de"
+    }, {
+        "recommendation": {
+            "isUsual": false
+        },
+        "storeNumber": "21607-213526",
+        "id": "1007251",
+        "name": "U.S. Army Garrison Grafenwohr",
+        "phoneNumber": "4996416238630",
+        "coordinates": {
+            "latitude": 49.708314,
+            "longitude": 11.900479
+        },
+        "regulations": [],
+        "address": {
+            "streetAddressLine1": "U.S. Army Garrison Grafenwöhr, Am Lager",
+            "streetAddressLine2": null,
+            "streetAddressLine3": null,
+            "city": "Grafenwöhr",
+            "countrySubdivisionCode": "BY",
+            "countryCode": "DE",
+            "postalCode": "92655"
+        },
+        "timeZoneInfo": {
+            "currentTimeOffset": 60,
+            "windowsTimeZoneId": "W. Europe Standard Time",
+            "olsonTimeZoneId": "GMT+02:00 Europe/Berlin"
+        },
+        "brandName": "Starbucks",
+        "ownershipTypeCode": "LS",
+        "curbside": {
+            "state": "notSupported"
+        },
+        "open": false,
+        "openStatusText": "Closed",
+        "warnings": ["Store closed"],
+        "addressLines": ["U.S. Army Garrison Grafenwöhr, Am Lager", "Grafenwöhr, BY 92655"],
+        "mop": {
+            "ready": false,
+            "wait": null
+        },
+        "schedule": [{
+            "dayName": "Today",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tomorrow",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Monday",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Tuesday",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Wednesday",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Thursday",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }, {
+            "dayName": "Friday",
+            "hours": "7:00 AM to 8:00 PM",
+            "open": true,
+            "holiday": ""
+        }],
+        "features": [{
+            "code": "WF",
+            "name": "Wireless Hotspot"
+        }],
+        "slug": "u-s-army-garrison-grafenwohr-u-s-army-garrison-grafenwohr-am-lager-grafenwohr-b"
+    }]
+   
