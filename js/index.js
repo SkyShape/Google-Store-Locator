@@ -4,38 +4,90 @@ let nurmberg = {
     lng: 11.061859
 };
 let infoWindow;
+let markers=[];
 
 
-function initMap() {
-    
+function initMap() {  
     map = new google.maps.Map(document.getElementById("map"), {
     center: nurmberg,
-    zoom: 10,
-    });
-    
+    zoom: 11,
+    });    
     infoWindow = new google.maps.InfoWindow();
-    
-    getStores();   
 };
 
+const onEnter = (e) =>{
+    if(e.key == "Enter") {
+        getStores();
+    }
+}
+
 const getStores = () => {
+    const zipCode = document.getElementById('zip-code').value;
+    zipCodeAlert(zipCode);
+  
     const API_URL= 'http://localhost:3000/api/stores';
-    fetch(API_URL)
+    const fullURL = `${API_URL}?zip_code=${zipCode}`;
+    fetch(fullURL)
     .then((res) =>{
         if(res.status == 200) {
             return res.json();
         } else {
             throw new Error (res.status);
         }
+        
     }).then((data)=>{
-        searchLocationsNear(data);
-        setStoresList(data);
+        if(data.length > 0 ) {
+            clearLocation(); 
+            searchLocationsNear(data);
+            setStoresList(data);
+            setOnClickListener();
+        } else {
+            clearLocation();
+            noStoresFound();
+        };
+       
+       
+    })
+};
+
+const zipCodeAlert = (zipCode) => {
+    if(!zipCode){
+        return;
+    }else if( !(zipCode.length == 5)){
+        clearLocation();
+        noStoresFound();
+        return swal('Sorry, the Zip Code must to have just 5 characters!!!', 'Try 90048 !', 'error');
+    }
+}
+
+const clearLocation = () => {
+    infoWindow.close();
+    for(let i = 0; i<markers.length; i++) {
+        markers[i].setMap(null);
+    }
+    markers.length = 0;
+}
+
+const noStoresFound = () => {
+    const html = `
+        <div class="no-stores-found">
+            No Stores Found
+        </div>
+    `
+    document.querySelector('.stores-list').innerHTML = html;
+}
+
+const setOnClickListener = () => {
+    const storeElements = document.querySelectorAll('.store-container');  
+    storeElements.forEach((elem, index)=>{
+        elem.addEventListener('click', ()=>{
+            google.maps.event.trigger(markers[index], 'click');            
+        })
     })
 };
 
 const setStoresList = (stores) =>{
     let storesList = '';
-
     stores.forEach((store, index) =>{
         storesList +=`
         <div class="store-container">
@@ -57,9 +109,8 @@ const setStoresList = (stores) =>{
                 </div>
             </div>
         </div>
-        `;
+        `
     })
-
     document.querySelector('.stores-list').innerHTML = storesList;
 }
 
@@ -121,7 +172,9 @@ const createMarker = (latlng, name, address,openStatusText,phone, storeNumber) =
       });
     
     google.maps.event.addListener(marker, 'click', function() {
+        document.querySelector('.title').style.display = "none";
         infoWindow.setContent(html);
         infoWindow.open(map, marker);
-    })
+    });
+    markers.push(marker);
 };

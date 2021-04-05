@@ -20,4 +20,6 @@ const storeSchema = new Schema ({
       }
 })
 
+storeSchema.index({location: '2dsphere'}, {sphere: true});
+
 module.exports = mongoose.model('Store', storeSchema);
